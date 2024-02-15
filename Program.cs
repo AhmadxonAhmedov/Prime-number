@@ -1,16 +1,21 @@
 ﻿
-Console.WriteLine("Tub sonlarni aniqlovchi loyixa: "); 
 
+Console.WriteLine("Tub sonlarni aniqlovchi loyixa: "); 
 Console.Write("Enter a number: ");
     string userInput = Console.ReadLine();
     int userNumber = Convert.ToInt32(userInput);
 
-      for (int i = 2; i < userNumber; i++ )
-         {
-           int sum = 0;
-            for (int j = 1; j <= i; j++)
+
+
+
+
+
+    for (int i = 2; i < userNumber; i++ )
+        {
+        int sum = 0;
+        for (int j = 1; j <= i; j++)
             {
-                 if(i % j == 0) 
+                if(i % j == 0) 
                 {
                      sum++;
                 }
@@ -19,4 +24,4 @@ Console.Write("Enter a number: ");
                 {
                     Console.WriteLine(i);
                 }
-            }
+        }
